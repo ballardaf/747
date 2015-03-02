@@ -1,0 +1,14 @@
+package edu.sc.cse.coursestats;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class HamcrestTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

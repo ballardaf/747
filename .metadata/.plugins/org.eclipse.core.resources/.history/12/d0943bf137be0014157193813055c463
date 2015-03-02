@@ -1,0 +1,58 @@
+package edu.sc.cse.coursestats;
+
+public class WeekTime {
+
+	public String getStart() {
+		return start;
+	}
+
+	public void setStart(String start) {
+		this.start = start;
+	}
+
+	public String getFinish() {
+		return finish;
+	}
+
+	public void setFinish(String finish) {
+		this.finish = finish;
+	}
+
+	public Course getCourse() {
+		return course;
+	}
+
+	public void setCourse(Course course) {
+		this.course = course;
+	}
+
+	private String start;
+	private String finish;
+	private Course course;
+	
+	public WeekTime(String s, String f, Course c)
+	{
+		start = s;
+		finish = f;
+		course = c;
+	}
+	
+	public String ToString()
+	{
+		String s;
+		return  s = start + finish + course.toString();
+	}
+	
+	 public int compare(WeekTime wt1)
+	 {
+		 String time1 = this.getStart() + this.getFinish();
+		 String time2 = wt1.getStart() + wt1.getFinish();
+		
+		 if (time1.indexOf(time2) < 0)
+			 return -1;
+		 else if (time1.indexOf(time2) == 0)
+			 return 0;
+		 else if (time1.compareTo(time2) > 0)
+			 return 1;
+	 }
+}

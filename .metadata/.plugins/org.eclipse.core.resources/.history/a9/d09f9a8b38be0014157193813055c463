@@ -1,0 +1,110 @@
+package edu.sc.cse.coursestats;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import junit.framework.*;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
+
+public class HamcrestTest 
+{
+
+	@Test
+	public void tesCourset() 
+	{
+		Course Csce515 = new Course("Csce", 515,"Nelly");
+		Course Csce747 = new Course("CSCE", 747, "Matthews");
+		//Course Networks = new Course("Csce", 515,"Nelly");
+		//fail("Not yet implemented");
+		assertThat(Csce515.toString(), equalTo(Csce747.toString()));
+		
+	}
+	
+	@Test
+	public void testCourseMeeting() 
+	{	
+		//courses
+		Course Csce515 = new Course("Csce", 515,"Nelly");
+		Course Csce747 = new Course("CSCE", 747, "Matthews");
+		
+		//CourseMeetings
+		CourseMeeting class1 = new CourseMeeting("212", "Monday","1:30 pm", Csce515 );
+		CourseMeeting class2 = new CourseMeeting("121", "Monday", "1:30 pm", Csce747);
+		
+		assertThat(class1.toString(), equalTo(class2.toString()));
+	}
+	
+	@Test
+	public void testWeekTimeToStringFailed()
+	{
+		//courses
+		Course Csce515 = new Course("Csce ", 515," Nelly");
+		Course Csce747 = new Course("CSCE", 747, "Matthews");
+		
+		//times 
+		WeekTime wt1 = new WeekTime("1:30 pm", "2:15 pm", Csce515);
+		WeekTime wt2 = new WeekTime("1:30 pm ", "2:15 pm ", Csce747);
+
+		assertThat(wt1.ToString(), equalTo(wt2.ToString()));
+	}
+	
+	@Test
+	public void testWeekTimeToStringPass()
+	{
+		//courses
+		Course Csce515 = new Course("Csce ", 515," Nelly");
+		Course Csce747 = new Course("CSCE", 747, "Matthews");
+		
+		//times 
+		WeekTime wt1 = new WeekTime("1:30 pm", "2:15 pm", Csce515);
+		WeekTime wt2 = new WeekTime("1:30 pm", "2:15 pm", Csce515);
+
+		assertThat(wt1.ToString(), equalTo(wt2.ToString()));
+	}
+	
+	@Test
+	public void testWeekTimeCompareEqualToZero()
+	{
+		//courses
+		Course Csce515 = new Course("Csce ", 515," Nelly");
+		Course Csce747 = new Course("CSCE", 747, "Matthews");
+		
+		//times 
+		WeekTime wt1 = new WeekTime("1:30 pm", "2:15 pm", Csce515);
+		WeekTime wt2 = new WeekTime("1:30 pm", "2:15 pm", Csce515);
+
+		assertThat(wt1.compare(wt2), equalTo(0));
+	}
+	
+	@Test
+	public void testWeekTimeCompareLessThanOne()
+	{
+		//courses
+		Course Csce515 = new Course("Csce ", 515," Nelly");
+		Course Csce747 = new Course("CSCE", 747, "Matthews");
+		
+		//times 
+		WeekTime wt1 = new WeekTime("1:30 pm", "2:15 pm", Csce515);
+		WeekTime wt2 = new WeekTime("2:30 pm", "3:15 pm", Csce515);
+
+		assertThat(wt1.compare(wt2), equalTo(-1));
+	}
+	
+	@Test
+	public void testWeekTimeCompareMoreThanOne()
+	{
+		//courses
+		Course Csce515 = new Course("Csce ", 515," Nelly");
+		Course Csce747 = new Course("CSCE", 515, "Matthews");
+		
+		//times 
+		WeekTime wt1 = new WeekTime("1:30 pm", "3:15 pm", Csce515);
+		WeekTime wt2 = new WeekTime("1:30 pm", "2:15 pm", Csce747);
+
+
+		assertThat(wt1.compare(wt2), equalTo(1));
+	}
+
+}

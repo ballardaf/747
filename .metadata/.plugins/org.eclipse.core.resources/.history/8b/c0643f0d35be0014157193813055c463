@@ -1,0 +1,21 @@
+package edu.sc.cse.coursestats;
+
+public class WeekTime {
+
+	private String start;
+	private String finish;
+	private Course course;
+	
+	public WeekTime(String s, String f, Course c)
+	{
+		start = s;
+		finish = f;
+		course = c;
+	}
+	
+	public String ToString()
+	{
+		String s;
+		return  s = start + finish + course.toString();
+	}
+}

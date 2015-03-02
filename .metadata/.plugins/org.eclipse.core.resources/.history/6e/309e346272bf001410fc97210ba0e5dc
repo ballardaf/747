@@ -1,0 +1,64 @@
+package edu.sc.cse.coursestats;
+
+public class Course {
+	 private String dept;
+	 private int number;
+	 private String instructor; 
+	private String start;
+	private String finish;
+	 
+	 public String getStart() {
+		return start;
+	}
+	public void setStart(String start) {
+		this.start = start;
+	}
+	public String getFinish() {
+		return finish;
+	}
+	public void setFinish(String finish) {
+		this.finish = finish;
+	}
+
+	 public Course(String d, int num, String instr)
+	 {
+		 dept = d;
+		 number = num;
+		 instructor = instr;
+	 }
+	
+	 public Course(String d, int num, String instr, String s, String f){
+		 dept = d;
+		 number = num;
+		 instructor = instr;
+		 start = s;
+		 finish = f;
+	 }
+	 public String toString()
+	 {
+		 String  str;
+		 //str = "CSCE" + "109" + "Matthews";
+		 str = dept + Integer.toString(number)+instructor;
+		 return str;
+	 }
+	 
+	 public int CompareTo(Course c1)
+	 {
+		 String time1 = this.getStart() + this.getFinish();
+		 String time2 = c1.getStart() + c1.getFinish();
+		
+		 int num = time1.compareTo(time2);
+
+		 if (num < 0)
+			 return -1;
+		 
+		 else if (num > 0)
+			 return 1;
+		 
+		 else
+			 return 0;
+		 
+	 }
+	 
+
+}

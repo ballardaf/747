@@ -1,0 +1,24 @@
+package edu.sc.cse.coursestats;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import junit.framework.*;
+
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
+
+public class HamcrestTest 
+{
+
+	@Test
+	public void test() {
+		Course Csce515 = new Course("Csce", 515,"Nelly");
+		Course Csce747 = new Course("CSCE", 747, "Matthews");
+		Course Networks = new Course("Csce", 515,"Nelly");
+		//fail("Not yet implemented");
+		assertThat(Csce515, equalTo(Networks));
+	}
+
+}
