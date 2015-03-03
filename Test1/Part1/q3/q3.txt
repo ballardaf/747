@@ -1,0 +1,1 @@
+According to Michael feathers, a test is not a unit test if it communicates with a database or across a network, touches a file system, can't run at the same time as other unit test or needs specific environment requirements to run.
