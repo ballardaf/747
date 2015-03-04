@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="CarTest (1)" project="MockitoWorkspaces" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="edu.sc.edu.mmm.practicalunittesting1.CarTest" time="0.0">
-    <testcase name="testIfCarIsACar" classname="edu.sc.edu.mmm.practicalunittesting1.CarTest" time="0.0"/>
-  </testsuite>
-</testrun>

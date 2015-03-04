@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="MessengerTest (1)" project="MockitoWorkspaces" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="edu.sc.cse.mmm.practicalunittesting2.MessengerTest" time="0.199">
-    <testcase name="test" classname="edu.sc.cse.mmm.practicalunittesting2.MessengerTest" time="0.199"/>
-  </testsuite>
-</testrun>
