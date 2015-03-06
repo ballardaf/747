@@ -1,0 +1,172 @@
+101,001,8:30,am,9:20,am,MW,TBA,8:30,am,9:20,am,F,TBA
+101,002,8:30,am,9:20,am,MW,TBA,9:40,am,10:30,am,F,TBA
+101,003,8:30,am,9:20,am,MW,TBA,8:30,am,9:20,am,R,TBA
+101,004,10:50,am,11:40,am,MW,TBA,3:30,pm,4:20,pm,F,TBA
+101,005,10:50,am,11:40,am,MW,TBA,10:50,am,11:40,am,F,TBA
+101,006,10:50,am,11:40,am,MW,TBA,11:40,am,12:30,pm,R,TBA
+101,007,1:10,pm,2:00,pm,MW,TBA,12:00,pm,12:50,pm,F,TBA
+101,008,1:10,pm,2:00,pm,MW,TBA,1:10,pm,2:00,pm,F,TBA
+101,009,1:10,pm,2:00,pm,MW,TBA,1:15,pm,2:05,pm,R,TBA
+101,010,3:30,pm,4:20,pm,MW,TBA,2:20,pm,3:10,pm,F,TBA
+101,011,3:30,pm,4:20,pm,MW,TBA,4:25,pm,5:15,pm,R,TBA
+101,012,10:05,am,10:55,am,TR,TBA,8:30,am,9:20,am,W,TBA
+101,013,10:05,am,10:55,am,TR,TBA,9:40,am,10:30,am,W,TBA
+101,014,10:05,am,10:55,am,TR,TBA,10:50,am,11:40,am,W,TBA
+101,015,2:50,pm,3:40,pm,TR,TBA,1:10,pm,2:00,pm,W,TBA
+101,016,2:50,pm,3:40,pm,TR,TBA,2:20,pm,3:10,pm,W,TBA
+101,017,2:50,pm,3:40,pm,TR,TBA,3:30,pm,4:20,pm,W,TBA
+101,Z01,"","","","","","","","","","","",James Orren McKay 
+102,001,9:40,am,10:30,am,MW,TBA,8:30,am,9:20,am,F,TBA
+102,002,9:40,am,10:30,am,MW,TBA,9:40,am,10:30,am,F,TBA
+102,003,9:40,am,10:30,am,MW,TBA,10:05,am,10:50,am,R,TBA
+102,004,12:00,pm,12:50,pm,MW,TBA,10:50,am,11:40,am,F,TBA
+102,005,12:00,pm,12:50,pm,MW,TBA,12:00,pm,12:50,pm,F,TBA
+102,006,12:00,pm,12:50,pm,MW,TBA,11:40,am,12:30,pm,R,TBA
+102,007,2:20,pm,3:10,pm,MW,TBA,1:10,pm,2:00,pm,F,TBA
+102,008,2:20,pm,3:10,pm,MW,TBA,2:20,pm,3:10,pm,F,TBA
+102,009,2:20,pm,3:10,pm,MW,TBA,2:50,pm,3:40,pm,R,TBA
+102,010,11:40,am,12:30,pm,TR,TBA,12:00,pm,12:50,pm,W,TBA
+102,011,11:40,am,12:30,pm,TR,TBA,1:10,pm,2:00,pm,W,TBA
+102,012,11:40,am,12:30,pm,TR,TBA,2:20,pm,3:10,pm,W,TBA
+102,013,6:40,pm,7:30,pm,TR,TBA,5:30,pm,6:20,pm,T,TBA
+102,014,6:40,pm,7:30,pm,TR,TBA,5:30,pm,6:20,pm,W,TBA
+102,015,6:40,pm,7:30,pm,TR,TBA,5:30,pm,6:20,pm,R,TBA
+102,016,5:30,pm,6:20,pm,TR,TBA,7:00,pm,7:50,pm,T,TBA
+102,017,5:30,pm,6:20,pm,TR,TBA,7:00,pm,7:50,pm,W,TBA
+102,018,5:30,pm,6:20,pm,TR,TBA,7:00,pm,7:50,pm,R,TBA
+102,Z01,"","","","","","","","","","","",James Orren McKay 
+145,001,10:50,am,11:40,am,MW,TBA,8:00,am,9:55,am,TR,TBA
+145,002,10:50,am,11:40,am,MW,TBA,10:05,am,12:00,pm,TR,TBA
+145,003,1:10,pm,2:00,pm,MW,TBA,1:15,pm,3:10,pm,TR,TBA
+145,004,1:10,pm,2:00,pm,MW,TBA,8:00,am,9:55,am,TR,TBA
+145,005,3:30,pm,4:20,pm,MW,TBA,3:30,pm,5:25,pm,TR,TBA
+145,006,3:30,pm,4:20,pm,MW,TBA,5:30,pm,7:25,pm,TR,TBA
+145,007,5:50,pm,6:40,pm,MW,TBA,10:05,am,12:00,pm,TR,TBA
+145,008,5:50,pm,6:40,pm,MW,TBA,3:30,pm,5:25,pm,TR,TBA
+146,001,10:05,am,11:20,am,TR,TBA,8:30,am,10:25,am,W,TBA
+146,002,10:05,am,11:20,am,TR,TBA,10:50,am,12:45,pm,W,TBA
+146,003,10:05,am,11:20,am,TR,TBA,1:10,pm,3:05,pm,W,TBA
+146,004,6:00,pm,7:15,pm,TR,TBA,3:30,pm,5:25,pm,W,TBA
+146,005,6:00,pm,7:15,pm,TR,TBA,5:50,pm,7:45,pm,W,TBA
+190,001,6:00,pm,6:50,pm,T,Marco Valtorta 
+201,001,12:00,pm,12:50,pm,MWF,Mohamed Alamir Sharaf 
+204,001,4:25,pm,6:40,pm,TR,Caroline Merriam Eastman 
+205,001,5:30,pm,6:45,pm,MW,Christine M.G. Brown 
+206,001,10:05,am,11:20,am,TR,John R. Rose 
+210,001,10:05,am,11:20,am,TR,Caroline Merriam Eastman 
+211,001,10:05,am,11:20,am,TR,Chin-Tser Huang 
+211,002,4:25,pm,5:40,pm,TR,TBA
+211,003,8:30,am,9:45,am,TR,TBA
+212,001,10:05,am,11:20,am,TR,TBA
+212,002,4:25,pm,5:40,pm,TR,TBA
+215,801,11:40,am,12:30,pm,TR,TBA,1:15,pm,2:05,pm,TR,TBA
+215,802,11:40,am,12:30,pm,TR,TBA,2:20,pm,3:10,pm,TR,TBA
+215,803,11:40,am,12:30,pm,TR,TBA,3:25,pm,4:15,pm,TR,TBA
+215,804,11:40,am,12:30,pm,TR,TBA,4:25,pm,5:15,pm,TR,TBA
+215,851,11:40,am,12:30,pm,TR,TBA,1:15,pm,2:05,pm,TR,TBA
+215,852,11:40,am,12:30,pm,TR,TBA,2:20,pm,3:10,pm,TR,TBA
+215,853,11:40,am,12:30,pm,TR,TBA,3:25,pm,4:15,pm,TR,TBA
+215,854,11:40,am,12:30,pm,TR,TBA,4:25,pm,5:15,pm,TR,TBA
+240,001,11:40,am,12:55,pm,TR,Duncan A. Buell 
+240,002,6:00,pm,7:15,pm,TR,TBA
+311,001,8:30,am,9:45,am,TR,John R. Rose 
+330,001,2:50,pm,4:05,pm,TR,Marco Valtorta 
+350,001,11:40,am,12:55,pm,TR,Yan Tong 
+355,001,3:55,pm,5:10,pm,MW,Stephen A. Fenner 
+374,001,2:50,pm,4:05,pm,TR,TBA
+390,001,6:00,pm,6:50,pm,R,Marco Valtorta 
+416,001,10:05,am,11:20,am,TR,Srihari Nelakuditi 
+490,001,8:30,am,9:20,am,MWF,Jose M Vidal 
+498,001,"","","","","",TBA
+500,001,2:50,pm,4:05,pm,TR,TBA
+513,001,10:05,am,11:20,am,MW,Jason Daniel Bakos 
+513,006,10:05,am,11:20,am,MW,Jason Daniel Bakos 
+513,H10,10:05,am,11:20,am,MW,Jason Daniel Bakos 
+515,001,1:15,pm,2:30,pm,TR,Chin-Tser Huang 
+515,H10,1:15,pm,2:30,pm,TR,Chin-Tser Huang 
+520,001,5:30,pm,6:45,pm,MW,Csilla Farkas 
+520,006,5:30,pm,6:45,pm,MW,Csilla Farkas 
+520,H10,5:30,pm,6:45,pm,MW,Csilla Farkas 
+522,001,2:50,pm,4:05,pm,MW,Csilla Farkas 
+522,006,2:50,pm,4:05,pm,MW,Csilla Farkas 
+522,H10,2:50,pm,4:05,pm,MW,Csilla Farkas 
+552,001,8:30,am,11:00,am,F,Jijun Tang 
+552,H10,8:30,am,11:00,am,F,Jijun Tang 
+590,001,4:25,pm,5:40,pm,TR,TBA
+590,002,2:50,pm,4:05,pm,TR,Jenay Michelle Beer 
+611,001,3:55,pm,5:10,pm,MW,Jason Daniel Bakos 
+719,001,2:20,pm,3:35,pm,MW,Wenyuan Xu 
+750,001,1:15,pm,2:30,pm,MW,Stephen A. Fenner 
+750,006,1:15,pm,2:30,pm,MW,Stephen A. Fenner 
+771,001,8:30,am,9:45,am,MW,Manton M. Matthews 
+771,006,8:30,am,9:45,am,MW,Manton M. Matthews 
+774,001,1:15,pm,2:30,pm,TR,Jason Matthew Okane 
+797,001,"","","","","",TBA
+798,001,"","","","","",Jason Daniel Bakos 
+798,002,"","","","","",Duncan A. Buell 
+798,003,"","","","","",Caroline Merriam Eastman 
+798,004,"","","","","",Csilla Farkas 
+798,005,"","","","","",Stephen A. Fenner 
+798,006,"","","","","",Jianjun Hu 
+798,007,"","","","","",Chin-Tser Huang 
+798,008,"","","","","",Michael N. Huhns 
+798,009,"","","","","",Manton M. Matthews 
+798,010,"","","","","",Srihari Nelakuditi 
+798,011,"","","","","",Jason Matthew Okane 
+798,012,"","","","","",John R. Rose 
+798,013,"","","","","",Jijun Tang 
+798,014,"","","","","",Gabriel Alin Terejanu 
+798,015,"","","","","",Matt Eric Thatcher 
+798,016,"","","","","",Yan Tong 
+798,017,"","","","","",Homayoun Valafar 
+798,018,"","","","","",Marco Valtorta 
+798,019,"","","","","",Jose M Vidal 
+798,020,"","","","","",Song Wang 
+798,021,"","","","","",Wenyuan Xu 
+798,022,"","","","","",Jenay Michelle Beer 
+799,001,"","","","","",Jason Daniel Bakos 
+799,002,"","","","","",Duncan A. Buell 
+799,003,"","","","","",Caroline Merriam Eastman 
+799,004,"","","","","",Csilla Farkas 
+799,005,"","","","","",Stephen A. Fenner 
+799,006,"","","","","",Jianjun Hu 
+799,007,"","","","","",Chin-Tser Huang 
+799,008,"","","","","",Michael N. Huhns 
+799,009,"","","","","",Manton M. Matthews 
+799,010,"","","","","",Srihari Nelakuditi 
+799,011,"","","","","",Jason Matthew Okane 
+799,012,"","","","","",John R. Rose 
+799,013,"","","","","",Jijun Tang 
+799,014,"","","","","",Gabriel Alin Terejanu 
+799,015,"","","","","",Matt Eric Thatcher 
+799,016,"","","","","",Yan Tong 
+799,017,"","","","","",Homayoun Valafar 
+799,018,"","","","","",Marco Valtorta 
+799,019,"","","","","",Jose M Vidal 
+799,020,"","","","","",Song Wang 
+799,021,"","","","","",Wenyuan Xu 
+799,022,"","","","","",Jenay Michelle Beer 
+822,001,11:40,am,12:55,pm,TR,Jianjun Hu 
+883,001,10:05,am,11:20,am,TR,Gabriel Alin Terejanu 
+899,001,"","","","","",Jason Daniel Bakos 
+899,002,"","","","","",Duncan A. Buell 
+899,003,"","","","","",Caroline Merriam Eastman 
+899,004,"","","","","",Csilla Farkas 
+899,005,"","","","","",Stephen A. Fenner 
+899,006,"","","","","",Jianjun Hu 
+899,007,"","","","","",Chin-Tser Huang 
+899,008,"","","","","",Michael N. Huhns 
+899,009,"","","","","",Manton M. Matthews 
+899,010,"","","","","",Srihari Nelakuditi 
+899,011,"","","","","",Jason Matthew Okane 
+899,012,"","","","","",John R. Rose 
+899,013,"","","","","",Jijun Tang 
+899,014,"","","","","",Gabriel Alin Terejanu 
+899,015,"","","","","",Matt Eric Thatcher 
+899,016,"","","","","",Yan Tong 
+899,017,"","","","","",Homayoun Valafar 
+899,018,"","","","","",Marco Valtorta 
+899,019,"","","","","",Jose M Vidal 
+899,020,"","","","","",Song Wang 
+899,021,"","","","","",Wenyuan Xu 
+899,022,"","","","","",Jenay Michelle Beer 

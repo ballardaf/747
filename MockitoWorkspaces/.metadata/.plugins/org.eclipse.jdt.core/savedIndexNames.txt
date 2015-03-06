@@ -1,0 +1,4 @@
+INDEX VERSION 1.127+/home/mm/Courses/747new/MockitoWorkspaces/.metadata/.plugins/org.eclipse.jdt.core
+895925687.index
+3063891055.index
+4292168858.index

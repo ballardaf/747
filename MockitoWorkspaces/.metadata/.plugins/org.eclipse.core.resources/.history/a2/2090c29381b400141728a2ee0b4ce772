@@ -1,0 +1,13 @@
+package edu.sc.cse.mmm.mockito;
+
+import static org.mockito.Mockito.*;
+import java.awt.List;
+
+public class MokitoExample0 {
+
+	public static void main(String[] args) {
+
+
+	}
+
+}

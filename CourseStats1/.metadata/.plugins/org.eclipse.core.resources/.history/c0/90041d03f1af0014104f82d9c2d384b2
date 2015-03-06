@@ -1,0 +1,17 @@
+package edu.sc.cse.coursestats;
+
+public class Course {
+	 private String dept;
+	 private int number;
+	 private String instructor;
+	 
+	 public Course(String d, int num, String instr){
+		 dept = d;
+		 number = num;
+		 instructor = instr;
+	 }
+	 public String toString(){
+		 String  str;
+		 str = "CSCE" + "109" + "Matthews";
+	 }
+}

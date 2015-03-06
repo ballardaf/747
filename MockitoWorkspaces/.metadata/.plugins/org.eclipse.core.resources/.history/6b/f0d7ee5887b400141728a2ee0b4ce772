@@ -1,0 +1,14 @@
+package edu.sc.edu.mmm.practicalunittesting1;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class MokitoDefaultValuesTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

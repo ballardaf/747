@@ -1,0 +1,82 @@
+package edu.sc.cse.coursestats;
+
+public class WeekTime {
+
+	
+
+	public String getDay() {
+		return day;
+	}
+
+	public void setDay(String day) {
+		this.day = day;
+	}
+
+	public String getTime() {
+		return time;
+	}
+
+	public void setTime(String time) {
+		this.time = time;
+	}
+
+	public String getPeriod() {
+		return period;
+	}
+
+	public void setPeriod(String period) {
+		this.period = period;
+	}
+	
+	public Course getCourse() {
+		return course;
+	}
+
+	public void setCourse(Course course) {
+		this.course = course;
+	}
+
+	private String day;
+	private String time;
+	private String period;
+	private Course course;
+	
+	public WeekTime(String day, String time, String ampm)
+	{
+		this.day = day;
+		this.time = time;
+		this.period= ampm;
+	}
+	
+	public WeekTime(String day, String time, String ampm, Course c1)
+	{
+		this.day = day;
+		this.time = time;
+		this.period= ampm;
+		this.course = c1;
+	}
+	
+	public String toString()
+	{
+		String s;
+		s = day + time + period;
+		return  s ;
+	}
+	
+	 public int compare(WeekTime wt1)
+	 {
+		 String time1 = this.getDay()+this.getTime() + this.getPeriod();
+		 String time2 = wt1.getDay()+wt1.getTime() + wt1.getPeriod();
+		
+		 int num = time1.compareTo(time2);
+
+		 if (num < 0)
+			 return -1;
+		 
+		 else if (num > 0)
+			 return 1;
+		 
+		 else
+			 return 0;
+	 }
+}

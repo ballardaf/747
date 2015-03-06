@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="edu.sc.cse.coursestats/src"/>
+	<classpathentry excluding="edu.sc.cse.coursestats/src/" kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/hero/Downloads/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/home/hero/Downloads/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="output" path="edu.sc.cse.coursestats/bin"/>
+</classpath>

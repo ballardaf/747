@@ -1,0 +1,51 @@
+package edu.sc.cse.coursestats;
+
+import java.io.*;
+import java.util.Date;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+public class CourseStats {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Course Stats program 1");
+		Course c = new Course("CSCe", 110, "MatthewsA");
+		System.out.println(c.toString());
+		CourseMeeting meeting = new CourseMeeting("SWGN 3A01", "TR", "8:30-9:45", c);
+		System.out.println(meeting.toString());
+		
+		System.out.println("Starting to read csv file sched.csv");
+		
+		String filename = "data/sched.csv";
+		File infile = null;
+		try{
+			infile = new File(filename);
+			Scanner scanner = new Scanner(infile);	
+			String header = scanner.nextLine();
+			System.out.println("Header Line='"+ header + "'");
+			String line;
+			int linecounter = 0;
+			while ((line = scanner.nextLine()) != null) {
+				linecounter++;
+				String[] field = line.split("	");
+				if (field.length == 18){
+					System.out.println("CSCE " + field[3]  + " , sec=" + field[4]);
+				}else{
+					System.out.println("Data error line=" +  linecounter + "["+ line + "]");
+					System.out.println(field.length);
+				}
+		}
+			
+		} catch (FileNotFoundException e){
+			System.out.println("Error opening file='" + filename+"'");
+			e.printStackTrace();
+			System.exit(0);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+
+	}
+}

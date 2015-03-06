@@ -1,0 +1,16 @@
+6.) 
+
+     a.  
+	replay
+	replay of key presses
+	record key presses
+	recording of mouse motions
+	replay mouse motions
+	retyping of a text file 
+	record gnumeric session
+	replay mouse motion using half speed 
+	replay mouse motion using double speed
+	distribute mouse motions between two screens
+	replay keyboard and mouse file
+
+     d. cnee --replay --file <fileName>.xnr &

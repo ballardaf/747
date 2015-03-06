@@ -1,0 +1,8 @@
+7b)
+	a.) A dummy object needs to just execute the test - nothing more. 
+
+	b.) A stub allows us to provide indirect inputs of a class by providing some values to the SUT.
+
+	c.) A spy takes in indirect outputs and verifies the action of the SUT as expected. 
+
+	d.) A mock is pretty much the same as the Test spy but has difference syntax and flow for the code. 
