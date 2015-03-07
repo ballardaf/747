@@ -1,0 +1,180 @@
+####################################
+#         System information       #
+####################################
+# Date:                   2015:03:06 
+# Time:                   21:42:33 
+# Xnee program:           cnee 
+# Xnee version:           3.19 
+# Xnee home:              http://www.gnu.org/software/xnee/ 
+# Xnee info mailing list: info-xnee@gnu.org 
+# Xnee bug mailing list:  bug-xnee@gnu.org 
+# X version:              11 
+# X revision:             0 
+# X vendor:               The X.Org Foundation 
+# X vendor release:       11501000 
+# Record version major:   1
+# Record version minor:   13
+# OS name:                Linux 
+# OS Release:             3.13.0-24-generic 
+# OS Version:             #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014 
+# Machine:                x86_64 
+# Nodename:               hero-Studio-XPS-1645 
+# Display name:           :0
+# Dimension:              1920x1080
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  cnee --record --events-to-record 100 --mouse --keyboard -o xnee.xns -e xnee.log -v 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+# out-file xnee.xns
+# err-file xnee.log
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+# stop-key         0
+# pause-key        0
+# resume-key       0
+# insert-key       0
+# exec-key         0
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+events-to-record        100
+data-to-record          -1
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+all-clients
+# future-clients
+
+# Store the starting mouse position 
+# store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+#recorded-resolution  1920x1080
+#replay-resolution  1x1
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+
+max-threshold 20 
+min-threshold 20 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+#feedback-none
+#feedback-stderr
+feedback-xosd
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# synchronised-replay
+
+# Replay offset
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# human-printout  
+
+# Delay before starting record/replay
+# time 0
+
+# No recording of ReparentNotify
+# no-reparent-recording 
+
+# Various
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x1dd2020
+#   xids[0]             3
+#   xids[1]             0
+# Number of Ranges      2
+# RecordRange[0]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         21-21 
+device-event-range            2-6 
+error-range                   0-0 
+# RecordRange[1]
+request-range            0-0
+reply-range                   0-0 
+extension-request-major-range  0-0 
+extension-request-minor-range  0-0 
+extension-reply-major-range   0-0
+extension-reply-minor-range   0-0 
+delivered-event-range         0-0 
+device-event-range            66-71 
+error-range                   0-0 
+7,6,421,379,0,0,0,11155925,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,434,363,0,0,0,11155933,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,461,329,0,0,0,11155941,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,494,284,0,0,0,11155949,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,529,233,0,0,0,11155958,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,574,162,0,0,0,11155965,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,619,91,0,0,0,11155973,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,672,10,0,0,0,11155981,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,719,0,0,0,0,11155989,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,764,0,0,0,0,11155997,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,801,0,0,0,0,11156005,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,834,0,0,0,0,11156013,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,863,0,0,0,0,11156021,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,890,0,0,0,0,11156029,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,911,0,0,0,0,11156037,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,922,0,0,0,0,11156045,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,929,0,0,0,0,11156053,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,931,0,0,0,0,11156061,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,931,0,0,0,0,11156069,17,'Microsoft Microsoft® Nano Transceiver v1.0'
+7,6,928,0,0,0,0,11156077,17,'Microsoft Microsoft® Nano Transceiver v1.0'

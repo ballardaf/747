@@ -1,0 +1,1268 @@
+---  xnee_open_files: opening err: xnee.log  OK
+---  xnee_open_files: is recorder
+---  xnee_open_files: handling out
+---  xnee_open_files: opening out: xnee.xns
+--> xnee_rep_prepare 
+-- xnee_setup_display - data display
+-- xnee_setup_display - open data display
+Open display :0 
+Open display :0 
+Display :0 = 0x1de1ed0
+-- xnee_setup_display - control display
+Open display :0 
+Open display :0 
+Display :0 = 0x1df16b0
+-- xnee_setup_display - fake display
+Open display :0 
+Open display :0 
+Display :0 = 0x1e00e40
+-- xnee_setup_display - modifier map
+Freeing modifier mapping memory (nil)  building modifier map on 0x1e00e40
+display data    0x1de1ed0
+display control 0x1df16b0
+display fake    0x1e00e40
+-- xnee_setup_display - resolution
+-- xnee_setup_display - return OK
+-- xnee_rep_prepare - setup display
+-- xnee_setup_display - data display
+-- xnee_setup_display - control display
+Open display :0 
+Open display :0 
+Display :0 = 0x1e105f0
+-- xnee_setup_display - fake display
+Open display :0 
+Open display :0 
+Display :0 = 0x1e00e40
+-- xnee_setup_display - modifier map
+Freeing modifier mapping memory 0x1e10480  building modifier map on 0x1e00e40
+display data    0x1de1ed0
+display control 0x1e105f0
+display fake    0x1e00e40
+-- xnee_setup_display - resolution
+-- xnee_setup_display - return OK
+-- xnee_rep_prepare - setup record ext 
+ ---> xnee_setup_recordext
+int arg=0x1dd0010
+nt arg=5
+string arg=66-71
+ -- calling xnee_add_range_str (0x1dd0010, 5, 66-71) 
+ --> add_range_str (0x1dd0010, 5, 66-71)
+ --  add_range_str first string="66-71" (66)
+ --  add_range_str second string="71"   ret=1
+ --  add_range_str 1 66 71 
+Returning max_val=0
+ <-- add_range_str (0x1dd0010, 5, 66-71) max range=0
+<-- parse_range()
+int arg=0x1dd0010
+nt arg=4
+string arg=ReparentNotify
+ -- calling xnee_add_range_str (0x1dd0010, 4, ReparentNotify) 
+ --> add_range_str (0x1dd0010, 4, ReparentNotify)
+ --  add_range_str first string="ReparentNotify" (21)
+ --  add_range_str 1 21 0 
+ --  add_range_str 4
+Returning max_val=0
+ <-- add_range_str (0x1dd0010, 4, ReparentNotify) max range=0
+<-- parse_range()
+---> xnee_add_range 4 21 21
+Returning max_val=0
+  MAX -1 ALLOC 0
+ -- Allocating a new range of size 1
+Adding 4 range 21 - 21 at range 0
+<--- xnee_add_range
+---> xnee_add_range 5 2 6
+Returning max_val=1
+  MAX 0 ALLOC 0
+Adding 5 range 2 - 6 at range 0
+<--- xnee_add_range
+---> xnee_add_range 5 66 71
+Returning max_val=1
+  MAX 0 ALLOC 1
+ -- Allocating a new range of size 2
+Adding 5 range 66 - 71 at range 1
+<--- xnee_add_range
+Returning max_val=2
+ <--- xnee_setup_recordext 0
+-- xnee_rep_prepare - set auto repeat
+ key_click_percent  0 
+ bell_percent       50
+ bell_pitch         400
+ bell_duration      100
+ led_mask           0
+ global_auto_repeat 1
+Auto repeat:
+<-- xnee_rep_prepare returning 0
+<-- xnee_prepare returning 0
+----> xnee_grab_all_keys 1
+ ---> xnee_km_check
+  --- xnee_km_check 0 
+ <--- xnee_km_check
+----  xnee_grab_all_keys 2
+
+
+----      xnee_grab_all_keys ---- 
+----      xnee_grab_all_keys: i=0
+----      xnee_grab_all_keys: string is NULL
+
+
+----      xnee_grab_all_keys ---- 
+----      xnee_grab_all_keys: i=1
+----      xnee_grab_all_keys: string is NULL
+
+
+----      xnee_grab_all_keys ---- 
+----      xnee_grab_all_keys: i=2
+----      xnee_grab_all_keys: string is NULL
+
+
+----      xnee_grab_all_keys ---- 
+----      xnee_grab_all_keys: i=3
+----      xnee_grab_all_keys: string is NULL
+
+
+----      xnee_grab_all_keys ---- 
+----      xnee_grab_all_keys: i=4
+----      xnee_grab_all_keys: string is NULL
+<----  xnee_grab_all_keys 
+
+
+
+##############################################
+#      Xnee application arguments            #
+##############################################
+#  cnee --record --events-to-record 100 --mouse --keyboard -o xnee.xns -e xnee.log -v 
+
+
+##############################################
+#      Displays                              #
+##############################################
+# display :0
+xnee_key2id key=26
+Looking for 26 ===> 25 
+# distribute
+
+
+##############################################
+#      Files                                 #
+##############################################
+xnee_key2id key=2
+Looking for 2 ===> 1 
+# out-file xnee.xns
+xnee_key2id key=1
+Looking for 1 ===> 0 
+# err-file xnee.log
+
+
+##############################################
+#      Key Grabs                             #
+##############################################
+xnee_key2id key=12
+Looking for 12 ===> 12 
+# stop-key         0
+xnee_key2id key=13
+Looking for 13 ===> 13 
+# pause-key        0
+xnee_key2id key=14
+Looking for 14 ===> 14 
+# resume-key       0
+xnee_key2id key=15
+Looking for 15 ===> 15 
+# insert-key       0
+xnee_key2id key=16
+Looking for 16 ===> 16 
+# exec-key         0
+xnee_key2id key=17
+Looking for 17 ===> 17 
+# exec-program-key         xnee-exec-no-program
+
+
+##############################################
+#      Recording limits etc                  #
+##############################################
+
+xnee_key2id key=9
+Looking for 9 ===> 9 
+events-to-record        100
+xnee_key2id key=10
+Looking for 10 ===> 10 
+data-to-record          -1
+xnee_key2id key=11
+Looking for 11 ===> 11 
+seconds-to-record       -1
+# first-last
+
+# Record  all (including current) clients or only future ones
+xnee_key2id key=6
+Looking for 6 ===> 7 
+all-clients
+# xnee_key2id key=7
+Looking for 7 ===> 8 
+future-clients
+
+# Store the starting mouse position 
+# xnee_key2id key=43
+Looking for 43 ===> 35 
+store-mouse-position
+
+
+##############################################
+#      Resolution                            #
+##############################################
+
+# Resolution
+xnee_key2id key=23
+Looking for 23 ===> 20 
+#recorded-resolution  1920x1080
+xnee_key2id key=24
+Looking for 24 ===> 21 
+#replay-resolution  1x1
+xnee_key2id key=25
+Looking for 25 ===> 22 
+#resolution-adjustment  0
+
+
+##############################################
+#      Speed                                 #
+##############################################
+
+# Speed
+xnee_key2id key=22
+Looking for 22 ===> 19 
+#speed-percent  100
+
+
+##############################################
+#      Replaying limits etc                  #
+##############################################
+xnee_key2id key=48
+Looking for 48 ===> 48 
+
+max-threshold 20 
+xnee_key2id key=49
+Looking for 49 ===> 49 
+min-threshold 20 
+xnee_key2id key=50
+Looking for 50 ===> 50 
+tot-threshold 40 
+
+
+##############################################
+#      Feedback                              #
+##############################################
+xnee_get_requested_feedback
+#xnee_key2id key=47
+Looking for 47 ===> 38 
+feedback-none
+xnee_get_requested_feedback
+#xnee_key2id key=46
+Looking for 46 ===> 37 
+feedback-stderr
+xnee_get_requested_feedback
+xnee_key2id key=45
+Looking for 45 ===> 36 
+feedback-xosd
+xnee_get_xosd_font_impl
+xnee_key2id key=44
+Looking for 44 ===> -1 
+ 
+
+
+##############################################
+#      Various                               #
+##############################################
+
+# Plugin file 
+
+# Modes (currently not used)
+# xnee_key2id key=31
+Looking for 31 ===> 26 
+synchronised-replay
+
+# Replay offset
+xnee_key2id key=33
+Looking for 33 ===> 51 
+#replay-offset 0x0
+
+# Human printout of X11 data (instead of Xnee format)
+# xnee_key2id key=35
+Looking for 35 ===> 30 
+human-printout  
+
+# Delay before starting record/replay
+xnee_key2id key=21
+Looking for 21 ===> 18 
+# time 0
+
+# No recording of ReparentNotify
+# xnee_key2id key=62
+Looking for 62 ===> 55 
+no-reparent-recording 
+
+# Various
+Returning max_val=2
+#########################################
+#          Record settings              #
+#########################################
+#   data_flags          7
+#   rState              0x1dd2020
+#   xids[0]             0
+#   xids[1]             0
+# Number of Ranges      2
+# RecordRange[0]
+xnee_key2id key=51
+Looking for 51 ===> 39 
+request-range            0-0
+xnee_key2id key=55
+Looking for 55 ===> 40 
+reply-range                   0-0 
+xnee_key2id key=56
+Looking for 56 ===> 44 
+extension-request-major-range  0-0 
+xnee_key2id key=57
+Looking for 57 ===> 45 
+extension-request-minor-range  0-0 
+xnee_key2id key=58
+Looking for 58 ===> 46 
+extension-reply-major-range   0-0
+xnee_key2id key=59
+Looking for 59 ===> 47 
+extension-reply-minor-range   0-0 
+xnee_key2id key=53
+Looking for 53 ===> 42 
+delivered-event-range         21-21 
+xnee_key2id key=52
+Looking for 52 ===> 41 
+device-event-range            2-6 
+xnee_key2id key=54
+Looking for 54 ===> 43 
+error-range                   0-0 
+# RecordRange[1]
+xnee_key2id key=51
+Looking for 51 ===> 39 
+request-range            0-0
+xnee_key2id key=55
+Looking for 55 ===> 40 
+reply-range                   0-0 
+xnee_key2id key=56
+Looking for 56 ===> 44 
+extension-request-major-range  0-0 
+xnee_key2id key=57
+Looking for 57 ===> 45 
+extension-request-minor-range  0-0 
+xnee_key2id key=58
+Looking for 58 ===> 46 
+extension-reply-major-range   0-0
+xnee_key2id key=59
+Looking for 59 ===> 47 
+extension-reply-minor-range   0-0 
+xnee_key2id key=53
+Looking for 53 ===> 42 
+delivered-event-range         0-0 
+xnee_key2id key=52
+Looking for 52 ===> 41 
+device-event-range            66-71 
+xnee_key2id key=54
+Looking for 54 ===> 43 
+error-range                   0-0 
+	  XRecord-
+	  Release         1.13
+Returning max_val=2
+--->xnee_setup_recording
+ -- xnee_record_from_data_display()  using the following X serv data
+    using the following X serv data
+X info:   The X.Org Foundation 1 15 1
+<-- 1 
+<---xnee_setup_recording
+xnee_key2id key=26
+Looking for 26 ===> 25 
+xnee_key2id key=2
+Looking for 2 ===> 1 
+xnee_key2id key=1
+Looking for 1 ===> 0 
+xnee_key2id key=12
+Looking for 12 ===> 12 
+xnee_key2id key=13
+Looking for 13 ===> 13 
+xnee_key2id key=14
+Looking for 14 ===> 14 
+xnee_key2id key=15
+Looking for 15 ===> 15 
+xnee_key2id key=16
+Looking for 16 ===> 16 
+xnee_key2id key=17
+Looking for 17 ===> 17 
+xnee_key2id key=9
+Looking for 9 ===> 9 
+xnee_key2id key=10
+Looking for 10 ===> 10 
+xnee_key2id key=11
+Looking for 11 ===> 11 
+xnee_key2id key=6
+Looking for 6 ===> 7 
+xnee_key2id key=7
+Looking for 7 ===> 8 
+xnee_key2id key=43
+Looking for 43 ===> 35 
+xnee_key2id key=23
+Looking for 23 ===> 20 
+xnee_key2id key=24
+Looking for 24 ===> 21 
+xnee_key2id key=25
+Looking for 25 ===> 22 
+xnee_key2id key=22
+Looking for 22 ===> 19 
+xnee_key2id key=48
+Looking for 48 ===> 48 
+xnee_key2id key=49
+Looking for 49 ===> 49 
+xnee_key2id key=50
+Looking for 50 ===> 50 
+xnee_get_requested_feedback
+xnee_key2id key=47
+Looking for 47 ===> 38 
+xnee_get_requested_feedback
+xnee_key2id key=46
+Looking for 46 ===> 37 
+xnee_get_requested_feedback
+xnee_key2id key=45
+Looking for 45 ===> 36 
+xnee_get_xosd_font_impl
+xnee_key2id key=44
+Looking for 44 ===> -1 
+xnee_key2id key=31
+Looking for 31 ===> 26 
+xnee_key2id key=33
+Looking for 33 ===> 51 
+xnee_key2id key=35
+Looking for 35 ===> 30 
+xnee_key2id key=21
+Looking for 21 ===> 18 
+xnee_key2id key=62
+Looking for 62 ===> 55 
+Returning max_val=2
+xnee_key2id key=51
+Looking for 51 ===> 39 
+xnee_key2id key=55
+Looking for 55 ===> 40 
+xnee_key2id key=56
+Looking for 56 ===> 44 
+xnee_key2id key=57
+Looking for 57 ===> 45 
+xnee_key2id key=58
+Looking for 58 ===> 46 
+xnee_key2id key=59
+Looking for 59 ===> 47 
+xnee_key2id key=53
+Looking for 53 ===> 42 
+xnee_key2id key=52
+Looking for 52 ===> 41 
+xnee_key2id key=54
+Looking for 54 ===> 43 
+xnee_key2id key=51
+Looking for 51 ===> 39 
+xnee_key2id key=55
+Looking for 55 ===> 40 
+xnee_key2id key=56
+Looking for 56 ===> 44 
+xnee_key2id key=57
+Looking for 57 ===> 45 
+xnee_key2id key=58
+Looking for 58 ===> 46 
+xnee_key2id key=59
+Looking for 59 ===> 47 
+xnee_key2id key=53
+Looking for 53 ===> 42 
+xnee_key2id key=52
+Looking for 52 ===> 41 
+xnee_key2id key=54
+Looking for 54 ===> 43 
+Entering main loop( recorder)
+ ---> xnee_record_async() 
+ -- xnee_record_from_data_display()  using the following X serv data
+    using the following X serv data
+X info:   The X.Org Foundation 1 15 1
+<-- 1 
+ --- xnee_record_async() enable context
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71  handle xi:: dev-id130 type:71   --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ --- xnee_record_async() loop
+ --- xnee_record_async() loop 2 
+ --- xnee_record_async() loop 3
+handle xi:: dev-id145 type:71    valuator not printed 1 / 2 
+handle xi:: dev-id130 type:71    valuator not printed 1 / 2 
+ closing down while loop in async loop
+ ---> xnee_stop_session
+xnee_stop_session : ungrab -----> 
+xnee_stop_session : ungrab <---- 
+Resetting autorepeat on (0x1e00e40) to: AutoRepeatModeOn
+ <--- xnee_stop_session 0
+ <--- xnee_record_async()
+xnee_start : ungrab -----> 
+---> xnee_ungrab_keys
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--- xnee_ungrab_keys  freeing grab struct 
+<--- xnee_ungrab_keys
+xnee_start : ungrab <---- 
+---> xnee_free_dyn_data
+ --- xnee_free_dyn_data: program name
+ --- xnee_free_dyn_data: program name
+ --- xnee_free_dyn_data: refreshing ranges
+ -- xnee_free_ranges
+ --- xnee_free_dyn_data: replay_setup
+ --- xnee_free_dyn_data: record_ext
+Returning max_val=2
+ -- xnee_record_from_data_display()  using the following X serv data
+    using the following X serv data
+X info:   The X.Org Foundation 1 15 1
+<-- 1 
+---> xnee_unsetup_recording
+---  disabling context 0x4a00001 on 0x1de1ed0 
+---  freeing context 
+<--- xnee_unsetup_recording
+ --- xnee_free_dyn_data: grab_keys
+ --- xnee_free_dyn_data: resource_meta
+ --- xnee_free_dyn_data: xnee_info
+ -- xnee_free_ranges
+ --- xnee_free_dyn_data: x version info
+<--- xnee_free_dyn_data
+---> xnee_new_dyn_data
+---  xnee_new_dyn_data: freeing old memory (if found)
+---> xnee_free_dyn_data
+ --- xnee_free_dyn_data: program name
+ --- xnee_free_dyn_data: program name
+ --- xnee_free_dyn_data: refreshing ranges
+ -- xnee_free_ranges
+ --- xnee_free_dyn_data: replay_setup
+ --- xnee_free_dyn_data: record_ext
+ --- xnee_free_dyn_data: grab_keys
+ --- xnee_free_dyn_data: resource_meta
+ --- xnee_free_dyn_data: xnee_info
+ -- xnee_free_ranges
+ --- xnee_free_dyn_data: x version info
+<--- xnee_free_dyn_data
+Freeing context xnee_close_down : ungrab -----> 
+---> xnee_ungrab_keys
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--->  xnee_ungrab_key
+ ---  xnee_ungrab_key we have a grab struct allocated
+---  xnee_ungrab_key key==0
+--- xnee_ungrab_keys  freeing grab struct 
+<--- xnee_ungrab_keys
+xnee_close_down : ungrab <---- 0
+xnee_close_down : xnee_reset_autorepeat ----> 
+xnee_close_down : xnee_reset_autorepeat <---- 0
+Freeing modifier mapping memory 0x1dff7b0 Closing displays on host :0
+Closing displays control=0x1e105f0 
+Closing displays fake=0x1e00e40 
+Closing displays data=0x1de1ed0 
+Closing displays data=0x1de1ed0  pending:0
+Closing displays data=0x1de1ed0  flushed
+Closing displays data=0x1de1ed0 slept
+Closing displays grab=0x1dff880 
+closing fds
+ --  xnee_close_down() free data_file 
+ --  xnee_close_down() free data_file <-- 0
+ --  xnee_close_down() free rc_file 
+ --  xnee_close_down() free rc_file <-- 0
+ --  xnee_close_down() free rt_file 
+ --  xnee_close_down() free rt_file <-- 0
+ --  xnee_close_down() free err_file
+Closing file=xnee.log fd=0x1de1a50
